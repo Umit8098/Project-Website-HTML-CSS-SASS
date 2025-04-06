@@ -37,3 +37,11 @@ h1, h2, h3 {
     // text-align: center;
     // margin: 0;
 }
+.home-bgImg-container {
+    // background-image: url("../../img/model-1.jpg");
+    // height: 100vh;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover;
+
+    @include bgImage(100vh, $main-bgImage-path);
